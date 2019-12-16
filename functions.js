@@ -22,3 +22,15 @@ var Bye = function(){
 }
 
 Bye();
+
+
+
+//Calling another function---------------
+
+function callFunction(fun){
+    fun();
+}
+var Bye = function(){
+    console.log("Byeee");
+}
+callFunction(Bye);
