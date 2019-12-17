@@ -68,6 +68,26 @@ var alpha = 6.54;
 module.exports.app1 = app1;
 module.exports.app2 = app2;
 module.exports.alpha = alpha;
+
+
+
+//OR
+
+  var app1 = function(array){
+     return 'There are ' + array.length + ' elements in the array';
+};
+
+var app2= function(a,b){
+    return `sum of two numbers is ${a+b}`;
+};
+var alpha = 6.54;
+
+module.exports{
+app1 : app1,
+app2 : app2,
+alpha : alpha
+};
+
 ----------------------------------------------------------------//------------------------------------------------------------
 //file2.js
 var data = require('./file1.js');
