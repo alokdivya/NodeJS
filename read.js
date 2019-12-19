@@ -4,3 +4,7 @@ fs.mkdir('stuff', function(){
 		fs.writeFileSync('stuff/writeme.txt',data);
 	});
 });
+----------------------------------------------------------//----------------------------------------------------------------
+//Make a text file naming readme.txt
+//Run the code using node read.js
+//It will create  directory named stuff which will contain a text file writeme.js in which all the content of readme.js will be written
